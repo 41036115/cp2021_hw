@@ -2192,6 +2192,7 @@ function doSave(storage_id, filename){
 <p><button id="add1to100">hw1-1</button><button id="p261">hw1-2</button></p>
 <p><button id="rocflag">ROC flag</button></p>
 <p><button id="座標">座標</button></p>
+<p><button id="final1">final1</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -2291,5 +2292,10 @@ doc["rocflag"].bind("click", rocflag.do)
 座標 = button2(座標_url)
 doc["座標"].bind("click", 座標.do)
 ################################## 座標 end
+################################## final1 start
+final1_url = "https://gist.githubusercontent.com/41036115/aa0b9b55d539cda1d7d2e9776e382846/raw/b0949d8cba707b1a8fbd6bcddb2ed3870a9c8b87/final1"
+final1 = button2(final1_url)
+doc["final1"].bind("click", final1.do)
+################################## final1 end
 </script>
 </p></div>
